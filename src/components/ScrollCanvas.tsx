@@ -19,9 +19,13 @@ export default function ScrollCanvas() {
 
     const images: HTMLImageElement[] = new Array(TOTAL_FRAMES);
 
+    const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+      ? import.meta.env.BASE_URL
+      : `${import.meta.env.BASE_URL}/`;
+
     function getFramePath(index: number) {
       const frameNum = String(index + 1).padStart(3, '0');
-      return `/images/ezgif-frame-${frameNum}.jpg`;
+      return `${baseUrl}images/ezgif-frame-${frameNum}.jpg`;
     }
 
     function getClosestLoadedFrame(index: number) {

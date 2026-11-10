@@ -312,21 +312,21 @@ export default function App() {
           <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-12">
             <div className="flex-1 flex items-center justify-center gap-4 w-full max-w-xl">
               <div className="relative group w-1/3 h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl">
-                <img src="/src/assets/images/who_we_are_reception_1794128230658.jpg" alt="Reception" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/who_we_are_reception_1794128230658.jpg`} alt="Reception" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <span className="text-[11px] text-red-400 font-bold uppercase tracking-wider">Welcome</span>
                   <span className="text-sm font-semibold text-white">HQ Reception</span>
                 </div>
               </div>
               <div className="relative group w-1/3 h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl -translate-y-6">
-                <img src="/src/assets/images/who_we_are_employee_1794128231580.jpg" alt="Employee" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/who_we_are_employee_1794128231580.jpg`} alt="Employee" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <span className="text-[11px] text-red-400 font-bold uppercase tracking-wider">People</span>
                   <span className="text-sm font-semibold text-white">Our Team</span>
                 </div>
               </div>
               <div className="relative group w-1/3 h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl">
-                <img src="/src/assets/images/who_we_are_collaborators_1794128230080.jpg" alt="Collaborators" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/who_we_are_collaborators_1794128230080.jpg`} alt="Collaborators" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <span className="text-[11px] text-red-400 font-bold uppercase tracking-wider">Innovation</span>
                   <span className="text-sm font-semibold text-white">Collaboration</span>
@@ -379,21 +379,21 @@ export default function App() {
           <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-12">
             <div className="flex-1 flex items-center justify-center gap-4 w-full max-w-xl">
               <div className="relative group w-1/3 h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl">
-                <img src="/src/assets/images/logistics_delivery_scooter_1794127558098.jpg" alt="Scooter" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/logistics_delivery_scooter_1794127558098.jpg`} alt="Scooter" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <span className="text-[11px] text-red-400 font-bold uppercase tracking-wider">Speed</span>
                   <span className="text-sm font-semibold text-white">City Express</span>
                 </div>
               </div>
               <div className="relative group w-1/3 h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl -translate-y-6">
-                <img src="/src/assets/images/logistics_warehouse_workers_1794127556109.jpg" alt="Warehouse" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/logistics_warehouse_workers_1794127556109.jpg`} alt="Warehouse" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <span className="text-[11px] text-red-400 font-bold uppercase tracking-wider">Expertise</span>
                   <span className="text-sm font-semibold text-white">Nationwide Network</span>
                 </div>
               </div>
               <div className="relative group w-1/3 h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl">
-                <img src="/src/assets/images/logistics_sorting_facility_1794127555904.jpg" alt="Sorting" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/logistics_sorting_facility_1794127555904.jpg`} alt="Sorting" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <span className="text-[11px] text-red-400 font-bold uppercase tracking-wider">Automation</span>
                   <span className="text-sm font-semibold text-white">Smart Hubs</span>
@@ -593,7 +593,7 @@ export default function App() {
           <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-12">
             <div className="flex-1 flex flex-col sm:flex-row items-center justify-center gap-6 w-full max-w-xl">
               <div className="relative group w-full sm:w-1/2 h-[380px] rounded-3xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl">
-                <img src="/src/assets/images/choose_us_delivery_box_1794128436899.jpg" alt="Delivery Handover" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/choose_us_delivery_box_1794128436899.jpg`} alt="Delivery Handover" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <div className="bg-slate-900/40 backdrop-blur-2xl border-white/15 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] border border-white/20 p-3 rounded-2xl backdrop-blur-md space-y-1">
                     <div className="flex items-center gap-2 text-emerald-400 text-xs font-bold">
@@ -606,7 +606,7 @@ export default function App() {
               </div>
 
               <div className="relative group w-full sm:w-1/2 h-[380px] rounded-3xl overflow-hidden border border-white/20 bg-white/[0.04] backdrop-blur-xl border-white/15 shadow-[0_8px_30px_0_rgba(0,0,0,0.35)] backdrop-blur-md shadow-2xl sm:translate-y-8">
-                <img src="/src/assets/images/choose_us_warehouse_1794128437400.jpg" alt="Warehouse Parcels" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/choose_us_warehouse_1794128437400.jpg`} alt="Warehouse Parcels" className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-4 flex flex-col justify-end">
                   <div className="bg-slate-900/40 backdrop-blur-2xl border-white/15 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] border border-white/20 p-3 rounded-2xl backdrop-blur-md space-y-1">
                     <div className="flex items-center gap-2 text-emerald-400 text-xs font-bold">
